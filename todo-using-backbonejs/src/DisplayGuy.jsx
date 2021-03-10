@@ -1,10 +1,12 @@
-import React, { useEffect, useState } from 'react'
+import React from 'react'
 import collection from './data-layer/todoCollection'
 
 function DisplayGuy({ list, updateList }) {
 
     const doneTodo = (id) => {
+
         // toggle current model to done/not 
+
         let modelToToggle = collection.get(id)
         if (!modelToToggle) return
         modelToToggle.set({ done: !modelToToggle.get('done') })

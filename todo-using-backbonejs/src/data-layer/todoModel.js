@@ -1,8 +1,4 @@
-import { Model, Collection, Events } from 'backbone';
-
-let t_id = 1001
-
-const getNext = () => t_id++
+import { Model } from 'backbone';
 
 let todoModel = Model.extend({
 
@@ -12,9 +8,9 @@ let todoModel = Model.extend({
         done: false
     },
 
-    initialize: function (content) {
-        this.id = getNext()
-        this.content = content
+    initialize: function () {
+        // this.id = id
+        // this.content = content
         return this
     }
 

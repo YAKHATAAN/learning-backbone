@@ -6,12 +6,11 @@ import collection from './data-layer/todoCollection'
 
 function App() {
 
-  const [list, setList] = useState(null) // [ {}, {} ] array of objects  
+  const [list, setList] = useState(null)
 
 
   function updateList() {
     setList(JSON.parse(JSON.stringify(collection)))
-
   }
 
 

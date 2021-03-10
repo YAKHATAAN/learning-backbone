@@ -1,4 +1,4 @@
-import { Model, Collection, Events } from 'backbone';
+import { Collection } from 'backbone';
 import todoModel from './todoModel';
 
 let todoCollection = Collection.extend({

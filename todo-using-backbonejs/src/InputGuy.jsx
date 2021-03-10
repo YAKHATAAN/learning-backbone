@@ -27,7 +27,6 @@ function InputGuy({ updateList }) {
         <div className="inputGuy">
             <input type="text" value={input} onChange={(e) => setInput(e.target.value)} />
             <button onClick={addTodo}>ADD</button>
-
         </div>
     )
 }
