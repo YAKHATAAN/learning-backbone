@@ -4,7 +4,7 @@ import todoModel from './todoModel';
 let todoCollection = Collection.extend({
     model: todoModel,
 
-    localStorage: new Backbone.LocalStorage("todos-backbone"),
+    // localStorage: new Backbone.LocalStorage("todos-backbone"),
 
     done: function () {
         return this.where({ done: true });

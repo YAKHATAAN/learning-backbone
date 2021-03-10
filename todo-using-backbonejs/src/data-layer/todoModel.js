@@ -15,6 +15,7 @@ let todoModel = Model.extend({
     initialize: function (content) {
         this.id = getNext()
         this.content = content
+        return this
     }
 
 })
