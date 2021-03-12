@@ -11,6 +11,7 @@ var player1 = new Player({ name: "Dravid" });
 var player2 = new Player({ name: "Raina" });
 var player3 = new Player({ name: "Jadeja" });
 var player4 = new Player({ name: "Raina" });
+
 var mycollection = new PlayersCollection();
 
 //The 'player1','player2' and 'player3' are 3 instances added to the collection by using 'mycollection' instance
